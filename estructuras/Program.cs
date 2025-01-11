@@ -45,4 +45,5 @@ if (indice == -1)
     Console.WriteLine($"elelemnto {buscar} no esxite en la lista de nombres");
 } else{
      Console.WriteLine($"elelemnto {buscar} se encuentra en al posicon {indice} de la lista de nombre");
+     
 }
