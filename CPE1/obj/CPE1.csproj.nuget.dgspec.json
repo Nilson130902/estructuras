@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\user\\Documents\\UEA\\3 SEMESTRE\\ESTRUCTURA DE DATOS\\estructuras\\estructuras\\estructuras.csproj": {}
+    "C:\\Users\\user\\Documents\\UEA\\3 SEMESTRE\\ESTRUCTURA DE DATOS\\estructuras\\CPE1\\CPE1.csproj": {}
   },
   "projects": {
-    "C:\\Users\\user\\Documents\\UEA\\3 SEMESTRE\\ESTRUCTURA DE DATOS\\estructuras\\estructuras\\estructuras.csproj": {
+    "C:\\Users\\user\\Documents\\UEA\\3 SEMESTRE\\ESTRUCTURA DE DATOS\\estructuras\\CPE1\\CPE1.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\user\\Documents\\UEA\\3 SEMESTRE\\ESTRUCTURA DE DATOS\\estructuras\\estructuras\\estructuras.csproj",
-        "projectName": "estructuras",
-        "projectPath": "C:\\Users\\user\\Documents\\UEA\\3 SEMESTRE\\ESTRUCTURA DE DATOS\\estructuras\\estructuras\\estructuras.csproj",
+        "projectUniqueName": "C:\\Users\\user\\Documents\\UEA\\3 SEMESTRE\\ESTRUCTURA DE DATOS\\estructuras\\CPE1\\CPE1.csproj",
+        "projectName": "CPE1",
+        "projectPath": "C:\\Users\\user\\Documents\\UEA\\3 SEMESTRE\\ESTRUCTURA DE DATOS\\estructuras\\CPE1\\CPE1.csproj",
         "packagesPath": "C:\\Users\\user\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\user\\Documents\\UEA\\3 SEMESTRE\\ESTRUCTURA DE DATOS\\estructuras\\estructuras\\obj\\",
+        "outputPath": "C:\\Users\\user\\Documents\\UEA\\3 SEMESTRE\\ESTRUCTURA DE DATOS\\estructuras\\CPE1\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\user\\AppData\\Roaming\\NuGet\\NuGet.Config"
