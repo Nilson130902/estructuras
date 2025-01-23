@@ -5,6 +5,8 @@ VisualStudioVersion = 17.0.31903.59
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "estructuras", "estructuras\estructuras.csproj", "{CDB8E7EB-476D-4BD6-A9C2-0135A99251D0}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "6semna", "6semna\6semna.csproj", "{B9BC0679-640B-4AAC-A553-67AE56251C74}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -18,5 +20,9 @@ Global
 		{CDB8E7EB-476D-4BD6-A9C2-0135A99251D0}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{CDB8E7EB-476D-4BD6-A9C2-0135A99251D0}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{CDB8E7EB-476D-4BD6-A9C2-0135A99251D0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B9BC0679-640B-4AAC-A553-67AE56251C74}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B9BC0679-640B-4AAC-A553-67AE56251C74}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B9BC0679-640B-4AAC-A553-67AE56251C74}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B9BC0679-640B-4AAC-A553-67AE56251C74}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
