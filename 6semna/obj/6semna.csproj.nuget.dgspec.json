@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "c:\\Users\\user\\Documents\\UEA\\3 SEMESTRE\\ESTRUCTURA DE DATOS\\estructuras\\6semna\\6semna.csproj": {}
+    "C:\\Users\\user\\Documents\\UEA\\3 SEMESTRE\\ESTRUCTURA DE DATOS\\estructuras\\6semna\\6semna.csproj": {}
   },
   "projects": {
-    "c:\\Users\\user\\Documents\\UEA\\3 SEMESTRE\\ESTRUCTURA DE DATOS\\estructuras\\6semna\\6semna.csproj": {
+    "C:\\Users\\user\\Documents\\UEA\\3 SEMESTRE\\ESTRUCTURA DE DATOS\\estructuras\\6semna\\6semna.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "c:\\Users\\user\\Documents\\UEA\\3 SEMESTRE\\ESTRUCTURA DE DATOS\\estructuras\\6semna\\6semna.csproj",
+        "projectUniqueName": "C:\\Users\\user\\Documents\\UEA\\3 SEMESTRE\\ESTRUCTURA DE DATOS\\estructuras\\6semna\\6semna.csproj",
         "projectName": "6semna",
-        "projectPath": "c:\\Users\\user\\Documents\\UEA\\3 SEMESTRE\\ESTRUCTURA DE DATOS\\estructuras\\6semna\\6semna.csproj",
+        "projectPath": "C:\\Users\\user\\Documents\\UEA\\3 SEMESTRE\\ESTRUCTURA DE DATOS\\estructuras\\6semna\\6semna.csproj",
         "packagesPath": "C:\\Users\\user\\.nuget\\packages\\",
-        "outputPath": "c:\\Users\\user\\Documents\\UEA\\3 SEMESTRE\\ESTRUCTURA DE DATOS\\estructuras\\6semna\\obj\\",
+        "outputPath": "C:\\Users\\user\\Documents\\UEA\\3 SEMESTRE\\ESTRUCTURA DE DATOS\\estructuras\\6semna\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\user\\AppData\\Roaming\\NuGet\\NuGet.Config"
