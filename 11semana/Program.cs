@@ -5,38 +5,24 @@ class Traductor
 {
     static void Main(string[] args)
     {
-        Dictionary<string, string> diccionario = new Dictionary<string, string>()
-        {
-            { "hola", "hi" },
-            { "tiempo", "time" },
-            { "persona", "person" },
-            { "año", "year" },
-            { "camino", "way" },
-            { "forma", "way" },
-            { "día", "day" },
-            { "cosa", "thing" },
-            { "hombre", "man" },
-            { "mundo", "world" },
-            { "vida", "life" },
-            { "mano", "hand" },
-            { "parte", "part" },
-            { "niño", "child" },
-            { "niña", "child" },
-            { "ojo", "eye" },
-            { "mujer", "woman" },
-            { "lugar", "place" },
-            { "trabajo", "work" },
-            { "semana", "week" },
-            { "caso", "case" },
-            { "punto", "point" },
-            { "tema", "point" },
-
-        };
+        Dictionary<string, string> diccionario = new Dictionary<string, string>();
+        diccionario.Add("tiempo", "time");
+        diccionario.Add("persona", "person");
+        diccionario.Add("año", "year");
+        diccionario.Add("camino", "way");
+        diccionario.Add("día", "day");
+        diccionario.Add("cosa", "thing");
+        diccionario.Add("hombre", "man");
+        diccionario.Add("mujer", "woman");
+        diccionario.Add("mundo", "world");
+        diccionario.Add("vida", "life");
+        diccionario.Add("ojo", "eye");
+        diccionario.Add("hola", "hi");
 
         int opcion;
         do
         {
-            Console.WriteLine("\nMENU");
+            Console.WriteLine("MENU");
             Console.WriteLine("=======================================================");
             Console.WriteLine("1. Traducir una frase");
             Console.WriteLine("2. Ingresar más palabras al diccionario");
@@ -48,44 +34,40 @@ class Traductor
             {
                 case 1:
                     Console.Write("Ingrese la frase: ");
-                    string frase = Console.ReadLine();
+                    string frase = Console.ReadLine().ToLower();
                     string[] palabras = frase.Split(' ');
                     Console.Write("Su frase traducida es: ");
-                    foreach (var item in palabras)
+                    foreach (var palabra in palabras)
                     {
-                        if (diccionario.ContainsKey(item.ToLower()))
+                        if (diccionario.ContainsKey(palabra))
                         {
-                            Console.Write(diccionario[item.ToLower()] + " ");
+                            Console.Write(diccionario[palabra] + " ");
                         }
                         else
                         {
-                            Console.Write(item + " ");
+                            Console.Write(palabra + " ");
                         }
                     }
                     Console.WriteLine();
                     break;
-
                 case 2:
+                    Console.Write("Ingrese la palabra en español: ");
+                    string palabraEsp = Console.ReadLine().ToLower();
                     Console.Write("Ingrese la palabra en inglés: ");
-                    string palabraIngles = Console.ReadLine().ToLower();
-                    Console.Write("Ingrese la traducción en español: ");
-                    string palabraEspanol = Console.ReadLine().ToLower();
-
-                    if (!diccionario.ContainsKey(palabraIngles))
+                    string palabraIng = Console.ReadLine().ToLower();
+                    if (!diccionario.ContainsKey(palabraEsp))
                     {
-                        diccionario.Add(palabraIngles, palabraEspanol);
-                        Console.WriteLine("Palabra agregada con éxito.");
+                        diccionario.Add(palabraEsp, palabraIng);
+                        Console.WriteLine("Palabra agregada correctamente.");
                     }
                     else
                     {
                         Console.WriteLine("La palabra ya existe en el diccionario.");
                     }
                     break;
-
                 case 0:
                     Console.WriteLine("Saliendo del programa...");
                     break;
-
                 default:
                     Console.WriteLine("Opción no válida, intente de nuevo.");
                     break;
