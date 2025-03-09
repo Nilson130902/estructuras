@@ -125,7 +125,7 @@ public class Program
                     Console.Write("Año de publicación: ");
                     if (int.TryParse(Console.ReadLine(), out int anio))
                     {
-                        nuevoLibro.AnioPublicacion = anio;
+                        nuevoLibro.AñoPublicacion = anio;
                     }
                     else
                     {
