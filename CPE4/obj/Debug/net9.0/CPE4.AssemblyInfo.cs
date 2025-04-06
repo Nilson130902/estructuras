@@ -10,12 +10,12 @@
 using System;
 using System.Reflection;
 
-[assembly: System.Reflection.AssemblyCompanyAttribute("estructuras")]
+[assembly: System.Reflection.AssemblyCompanyAttribute("CPE4")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
 [assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+5f84539c1fe5bea586244d39b8c2d96e7274b6c3")]
-[assembly: System.Reflection.AssemblyProductAttribute("estructuras")]
-[assembly: System.Reflection.AssemblyTitleAttribute("estructuras")]
+[assembly: System.Reflection.AssemblyProductAttribute("CPE4")]
+[assembly: System.Reflection.AssemblyTitleAttribute("CPE4")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
 
 // Generado por la clase WriteCodeFragment de MSBuild.
